@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
 
+import 'src/core/routing/app_router.dart';
+import 'src/core/theme/atlas_theme.dart';
+
 class AtlasApp extends StatelessWidget {
   const AtlasApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'FGC Atlas',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const Scaffold(
-        body: Center(
-          child: Text('FGC Atlas'),
-        ),
-      ),
+      theme: AtlasTheme.light,
+      routerConfig: appRouter,
     );
   }
 }

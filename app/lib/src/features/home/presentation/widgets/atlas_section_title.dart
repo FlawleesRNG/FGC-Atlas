@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+class AtlasSectionTitle extends StatelessWidget {
+  const AtlasSectionTitle(this.title, {super.key});
+
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      title,
+      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+        fontWeight: FontWeight.w900,
+        letterSpacing: 0,
+      ),
+    );
+  }
+}
