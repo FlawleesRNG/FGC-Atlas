@@ -11,15 +11,11 @@ class RecentEventsSection extends StatelessWidget {
       title: 'Eventos Recentes',
       child: Column(
         children: [
-          _EventRow(
-            name: 'Overdrive Arena #12',
-            placement: '2Âº',
-            delta: '+48',
-          ),
+          _EventRow(name: 'Overdrive Arena #12', placement: '2º', delta: '+48'),
           _Divider(),
-          _EventRow(name: 'Floripa Smash Fest', placement: '3Âº', delta: '+32'),
+          _EventRow(name: 'Floripa Smash Fest', placement: '3º', delta: '+32'),
           _Divider(),
-          _EventRow(name: 'SuperXP 2025', placement: '5Âº', delta: '+18'),
+          _EventRow(name: 'SuperXP 2025', placement: '5º', delta: '+18'),
         ],
       ),
     );

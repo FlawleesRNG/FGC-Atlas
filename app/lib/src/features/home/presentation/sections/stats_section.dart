@@ -9,7 +9,7 @@ class StatsSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const AtlasCard(
-      title: 'EstatÃ­sticas Gerais',
+      title: 'Estatísticas Gerais',
       child: Column(
         children: [
           Row(

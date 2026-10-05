@@ -29,7 +29,7 @@ class UpdateSection extends StatelessWidget {
                 const SizedBox(width: 14),
                 Expanded(
                   child: Text(
-                    'PrÃ³xima AtualizaÃ§Ã£o',
+                    'Próxima Atualização',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
                       fontWeight: FontWeight.w900,
                       letterSpacing: 0,
